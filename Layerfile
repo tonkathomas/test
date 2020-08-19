@@ -19,4 +19,4 @@ RUN python -c "print('hello world')"
 RUN python -c "print('hello world')"
 RUN python -c "print('hello world')"
 
-RUN apt-get install docker
+RUN apt-get install gcc docker
