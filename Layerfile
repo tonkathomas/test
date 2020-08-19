@@ -19,4 +19,4 @@ RUN python -c "print('hello world')"
 RUN python -c "print('hello world')"
 RUN python -c "print('hello world')"
 
-RUN apt-get install gcc g++ ghc imagemagick docker
+RUN apt-get install gcc g++ ghc imagemagick docker ruby
