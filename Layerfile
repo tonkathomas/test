@@ -8,3 +8,13 @@ RUN apt-get update && \
     apt-get install python
 
 RUN python -c "print('hello world')"
+RUN python -c "print('hello world')"
+RUN python -c "print('hello world')"
+RUN python -c "print('hello world')"
+RUN python -c "print('hello world')"
+RUN python -c "print('hello world')"
+RUN python -c "print('hello world')"
+RUN python -c "print('hello world')"
+RUN python -c "print('hello world')"
+RUN python -c "print('hello world')"
+RUN python -c "print('hello world')"
