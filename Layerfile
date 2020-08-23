@@ -1,6 +1,7 @@
 #This is an example LayerCI configuration for Docker!
 FROM vm/ubuntu:18.04
 
+CACHE /var/cache/apt
 # To note: Layerfiles create entire VMs, *not* containers!
 
 # install the latest version of Docker, as in the official Docker installation tutorial.
