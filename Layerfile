@@ -2,6 +2,7 @@
 FROM vm/ubuntu:18.04
 
 CACHE /var/cache/apt
+CACHE /var/lib/docker
 # To note: Layerfiles create entire VMs, *not* containers!
 
 # install the latest version of Docker, as in the official Docker installation tutorial.
@@ -23,3 +24,6 @@ RUN python -c "print('hello world')"
 RUN apt-get install gcc g++ ghc imagemagick docker ruby
 RUN touch /test2
 RUN apt-get install nodejs
+
+RUN docker pull alpine:latest
+RUN docker pull busybox:latest
