@@ -27,6 +27,7 @@ RUN apt-get install nodejs
 
 RUN apt-get install docker.io
 
-RUN docker pull couchbase
 RUN docker pull alpine:latest
 RUN docker pull busybox:latest
+
+RUN docker pull couchbase
