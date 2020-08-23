@@ -25,5 +25,7 @@ RUN apt-get install gcc g++ ghc imagemagick docker ruby
 RUN touch /test2
 RUN apt-get install nodejs
 
+RUN apt-get install docker-ce
+
 RUN docker pull alpine:latest
 RUN docker pull busybox:latest
